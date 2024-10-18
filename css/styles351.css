@@ -49,10 +49,10 @@ body {
 .reproduc {
 	z-index: 1;
     position: absolute;
-    top: 34.1%;
+    top: 33.1%;
     left: 22.6%;
-    width: 54.8%;
-    height: 57.2%;
+    width: 55.8%;
+    height: 59.2%;
     border-radius: 2%;
 	display: none;
 }
