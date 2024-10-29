@@ -60,6 +60,135 @@ body {
 	right: 2%;
 }
 
+.puntero {
+	position: absolute;
+    width: 3.2%;
+    height: 7.4%;
+	top: 75.1%;
+    left: 24.5%;
+}
+
+.puntero img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero1 {
+	position: absolute;
+    width: 3.2%;
+    height: 7.4%;
+	top: 75.1%;
+    left: 46.9%;
+}
+
+.puntero1 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero1.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero1::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero2 {
+	position: absolute;
+    width: 3.2%;
+    height: 7.4%;
+	top: 75.1%;
+    right: 27.9%;
+}
+
+.puntero2 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero2.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero2::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+.puntero3 {
+	position: absolute;
+    width: 3.2%;
+    height: 7.4%;
+	top: 75.1%;
+    right: 5.9%;
+}
+
+.puntero3 img {
+	width: 100%;
+	height: 100%;
+	transform: rotate(101deg);
+}
+
+.puntero3.animate__pulse {
+	animation-duration: 0.5s; /* Cambia el valor para ajustar la velocidad */
+}
+
+.puntero3::before {
+	content: '';
+	position: absolute;
+	top: -10%;
+	left: -10%;
+	width: 120%;
+	height: 120%;
+	background: radial-gradient(circle, rgb(99 94 94 / 63%), #dbd0d0);
+	border-radius: 50%;
+	z-index: -1; /* Aseguramos que el resplandor esté detrás del puntero */
+	opacity: 0.7; /* Ajusta la opacidad según la intensidad del resplandor */
+	animation: pulseGlow 1.5s infinite; /* Animación para el resplandor */
+}
+
+
 
 /* modal  */
 .openModal {

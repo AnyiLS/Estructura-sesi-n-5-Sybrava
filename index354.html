@@ -57,6 +57,26 @@
 			<!-- modal 2 -->
 
 			<div class="vutom-col"></div>
+
+			<div
+				class="puntero animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero" />
+			</div>
+
+			<div
+				class="puntero1 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero1" />
+			</div>
+
+			<div
+				class="puntero2 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero1" />
+			</div>
+
+			<div
+				class="puntero3 animate__animated animate__pulse animate__infinite">
+				<img src="./imagenes/puntero.png" alt="puntero3" />
+			</div>
 		</div>
 
 		<!-- Scripts -->
@@ -68,9 +88,14 @@
 
 				const exist = []
 
-				slides.forEach((item) => {
+				slides.forEach((item, index) => {
 					if (localStorage.getItem(item) === 'true') {
 						exist.push(item)
+						document.querySelector(`.puntero${index === 0 ? '' : index}`).style.display = 'none'
+						if (exist.length === 4) {
+					$('.boton-next').show()
+					$('.vutom-col').hide()
+				}
 					}
 				})
 

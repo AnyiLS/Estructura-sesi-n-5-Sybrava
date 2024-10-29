@@ -5,6 +5,7 @@ $(document).ready(function () {
 	$('.openModal').on('click', () => {
 		$('.modal').css('display', 'block')
 		localStorage.setItem('slide354', 'true')
+		$('.puntero').css('display', 'none')
 
 		const exist = []
 
@@ -28,6 +29,7 @@ $(document).ready(function () {
 	$('.openModal1').on('click', () => {
 		$('.modal1').css('display', 'block')
         localStorage.setItem('slide355', 'true')
+		$('.puntero1').css('display', 'none')
 
 		const exist = []
 
@@ -51,6 +53,7 @@ $(document).ready(function () {
 	$('.openModal2').on('click', () => {
 		$('.modal2').css('display', 'block')
         localStorage.setItem('slide356', 'true')
+		$('.puntero2').css('display', 'none')
 
 		const exist = []
 
@@ -74,6 +77,7 @@ $(document).ready(function () {
 	$('.openModal3').on('click', () => {
 		$('.modal3').css('display', 'block')
         localStorage.setItem('slide357', 'true')
+		$('.puntero3').css('display', 'none')
 
 		const exist = []
 
